@@ -1,0 +1,21 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IndependentAutoClicker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btn_choose" Content="Choose Target" HorizontalAlignment="Left" Height="36" Margin="60,236,0,0" VerticalAlignment="Top" Width="98"/>
+        <Button x:Name="btn_clear" Content="Clear Target" HorizontalAlignment="Left" Height="36" Margin="210,236,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Target:" HorizontalAlignment="Left" Margin="73,98,0,0" VerticalAlignment="Top" Width="52"/>
+        <Label x:Name="targetLbl" Content="" HorizontalAlignment="Left" Margin="130,98,0,0" VerticalAlignment="Top" />
+        <Button x:Name="btn_setHtky" Content="Set Hotkey" HorizontalAlignment="Left" Height="36" Margin="368,236,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Hotkey:" HorizontalAlignment="Left" Margin="365,98,0,0" VerticalAlignment="Top" Width="57"/>
+        <Label x:Name="lbl_htky" Content="" HorizontalAlignment="Left" Margin="422,98,0,0" VerticalAlignment="Top" />
+        <ComboBox x:Name="cmb_cps" HorizontalAlignment="Left" Margin="235,98,0,0" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Cps" HorizontalAlignment="Left" Margin="235,67,0,0" VerticalAlignment="Top" Width="57"/>
+
+    </Grid>
+</Window>
