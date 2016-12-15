@@ -9,13 +9,13 @@
     <Grid>
         <Button x:Name="btn_choose" Content="Choose Target" HorizontalAlignment="Left" Height="36" Margin="60,236,0,0" VerticalAlignment="Top" Width="98"/>
         <Button x:Name="btn_clear" Content="Clear Target" HorizontalAlignment="Left" Height="36" Margin="210,236,0,0" VerticalAlignment="Top" Width="98"/>
-        <Label Content="Target:" HorizontalAlignment="Left" Margin="73,98,0,0" VerticalAlignment="Top" Width="52"/>
-        <Label x:Name="targetLbl" Content="" HorizontalAlignment="Left" Margin="130,98,0,0" VerticalAlignment="Top" />
+        <Label Content="Target:" HorizontalAlignment="Left" Margin="60,98,0,0" VerticalAlignment="Top" Width="52"/>
+        <Label x:Name="targetLbl" Content="" HorizontalAlignment="Left" Margin="117,98,0,0" VerticalAlignment="Top" />
         <Button x:Name="btn_setHtky" Content="Set Hotkey" HorizontalAlignment="Left" Height="36" Margin="368,236,0,0" VerticalAlignment="Top" Width="98"/>
         <Label Content="Hotkey:" HorizontalAlignment="Left" Margin="365,98,0,0" VerticalAlignment="Top" Width="57"/>
         <Label x:Name="lbl_htky" Content="" HorizontalAlignment="Left" Margin="422,98,0,0" VerticalAlignment="Top" />
-        <ComboBox x:Name="cmb_cps" HorizontalAlignment="Left" Margin="235,98,0,0" VerticalAlignment="Top" Width="50"/>
-        <Label Content="Cps" HorizontalAlignment="Left" Margin="235,67,0,0" VerticalAlignment="Top" Width="57"/>
+        <ComboBox x:Name="cmb_cps" HorizontalAlignment="Left" Margin="258,28,0,0" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Cps :" HorizontalAlignment="Left" Margin="210,24,0,0" VerticalAlignment="Top" Width="57"/>
 
     </Grid>
 </Window>
